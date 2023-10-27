@@ -1,0 +1,10 @@
+body{
+    font-family: sans-serif;
+    max-width: 620px;
+    margin: 30vh auto;
+    font-size: 24px;
+}
+pre{
+    font-size: 48px;
+    font-family: Arial;
+}

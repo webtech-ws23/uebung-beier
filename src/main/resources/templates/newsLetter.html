@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdn.simplecss.org/simple.css">
+    <link rel="stylesheet" th:href="@{/main.css}">
+    <title>News Letter</title>
+</head>
+<body>
+<h1>Newsletter</h1>
+<form th:action="@{/newsletter}" method="post">
+    <input type="email" name="email" th:value="${email}" required >
+    <button >einschreiben</button>
+</form>
+<fieldset th:if="${Erfolg != null}">
+    Danke!</fieldset>
+</body>
+</html>
